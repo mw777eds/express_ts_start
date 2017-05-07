@@ -59,6 +59,7 @@ _Initialization is done from the root of your project_
   * `tsc --init` _Create tsconfig.json_
   * _Edit `tsconfig.json` to fit your style and needs_
   * `yo gruntfile` _Create `Gruntfile.js` with both options de-selected_
+  * _Edit `Gruntfile.js` to fit your style and needs_
   * `yarn init` _Initialize yarn package tracking_
   * `eslint --init` _sets up eslint code hints for IDE_
 
