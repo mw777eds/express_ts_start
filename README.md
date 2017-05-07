@@ -60,47 +60,4 @@ _Initialization is done from the root of your project_
 ### Git Ignore Setup
 Add information to `.gitignore` to describe files and folders not included in Git.  My current set up is the following:
 I got most of this from the node.gitignore [example](https://github.com/github/gitignore/blob/master/Node.gitignore)
-```
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by tools like istanbul
-coverage
-
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
-
-# Bower dependency directory (https://bower.io/)
-bower_components
-
-# Dependency directories
-node_modules/
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-
-# Mac OS
-.DS_Store
-```
