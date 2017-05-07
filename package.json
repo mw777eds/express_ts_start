@@ -1,0 +1,28 @@
+{
+  "name": "express_ts_start",
+  "version": "1.0.0",
+  "description": "General node express app starting point to be written in typescript with instructions here how to get to this point in the project.  This is for reference, training, and quick starts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {},
+  "keywords": [
+    "node",
+    "express",
+    "typescript",
+    "start",
+    "example"
+  ],
+  "author": "Michaal A Wallace Sr",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.15",
+    "typescript": "^2.3.2"
+  }
+}
