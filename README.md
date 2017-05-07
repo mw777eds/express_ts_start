@@ -1,10 +1,4 @@
-## express\_ts\_start
-  __  ____          ________ ______ ______ _____   _____ _____ 
- |  \/  \ \        / /____  |____  |____  |  __ \ / ____/ ____|
- | \  / |\ \  /\  / /    / /    / /    / /| |__) | |   | |     
- | |\/| | \ \/  \/ /    / /    / /    / / |  _  /| |   | |     
- | |  | |  \  /\  /    / /    / /    / /  | | \ \| |___| |____ 
- |_|  |_|   \/  \/    /_/    /_/    /_/   |_|  \_\\_____\_____|
+## /mw777rcc/express\_ts\_start
 
 ### Project Description
 General node express app starting point to be written in typescript with instructions here how to get to this point in the project.  This is for reference, training, and quick starts.
@@ -13,17 +7,17 @@ General node express app starting point to be written in typescript with instruc
 ### Global Installs
 Required globally installed npm packages used for development
 
-1. [git][https://git-scm.com]
-2. [node.js][https://nodejs.org/en/]
-3. [npm][https://www.npmjs.com/]
-4. [eslint][http://eslint.org/] *Only used as a code checker within my IDE*
-5. [grunt][https://gruntjs.com/]
-6. [grunt-cli][https://github.com/gruntjs/grunt-cli]
-7. [yo][https://www.npmjs.com/package/yo]
+1. [git](https://git-scm.com)
+2. [node.js](https://nodejs.org/en/)
+3. [npm](https://www.npmjs.com/)
+4. [eslint](http://eslint.org/) *Only used as a code checker within my IDE*
+5. [grunt](https://gruntjs.com/)
+6. [grunt-cli](https://github.com/gruntjs/grunt-cli)
+7. [yo](https://www.npmjs.com/package/yo)
 8. yo generators
-  1. [generator-eslint][https://www.npmjs.com/package/generator-eslint]
-  2. [generator-gruntfile][https://www.npmjs.com/package/generator-gruntfile]
-9. [yarn][https://yarnpkg.com/en/]
+  1. [generator-eslint](https://www.npmjs.com/package/generator-eslint)
+  2. [generator-gruntfile](https://www.npmjs.com/package/generator-gruntfile)
+9. [yarn](https://yarnpkg.com/en/)
 
 _To test what packages you have installed globally run the following command in the terminal:_`npm list -g --depth=0`
 
@@ -50,11 +44,11 @@ _Initialization is done from the root of your project_
   * Create `.gitignore` _See Git Ignore area below_
 * **Initializes node project, installs express, typescript, grunt, and grunt-contribs**
   * `npm init` _Create `package.json`_
-  * `npm install --save express` _Install node [expressjs][https://expressjs.com/] locally._
-  * `npm install --save-dev typescript` _Install [Typescript][https://www.typescriptlang.org/] locally._
-  * `npm install --save-dev grunt` _Install [Grunt][https://gruntjs.com/] locally._
-  * `npm install --save-dev grunt-contrib-watch` _Install [Grunt watcher][https://www.npmjs.com/package/grunt-contrib-watch] package._
-  * `npm install --save-dev grunt-ts` _Install [Grunt Typescript][https://www.npmjs.com/package/grunt-ts] package_
+  * `npm install --save express` _Install node [expressjs](https://expressjs.com/) locally._
+  * `npm install --save-dev typescript` _Install [Typescript](https://www.typescriptlang.org/) locally._
+  * `npm install --save-dev grunt` _Install [Grunt](https://gruntjs.com/) locally._
+  * `npm install --save-dev grunt-contrib-watch` _Install [Grunt watcher](https://www.npmjs.com/package/grunt-contrib-watch) package._
+  * `npm install --save-dev grunt-ts` _Install [Grunt Typescript](https://www.npmjs.com/package/grunt-ts) package_
 * **Set up Configurations: tsconfig.json, Gruntfile.js, and initialize yarn**
   * `tsc --init` _Create tsconfig.json_
   * _Edit `tsconfig.json` to fit your style and needs_
@@ -65,7 +59,7 @@ _Initialization is done from the root of your project_
 
 ### Git Ignore Setup
 Add information to `.gitignore` to describe files and folders not included in Git.  My current set up is the following:
-I got most of this from the node.gitignore [example][https://github.com/github/gitignore/blob/master/Node.gitignore]
+I got most of this from the node.gitignore [example](https://github.com/github/gitignore/blob/master/Node.gitignore)
 ```
 # Logs
 logs
